@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:id="@+id/bottom1"
+        android:background="@drawable/logo"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="姓 名：李 林"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        />
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="350dp"
+        android:text="学 号：41812607"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
